@@ -46,3 +46,14 @@ The project is a work in progress and is not yet complete.
 - [ ] User following
 - [ ] User feed (posts from users you follow)
 - [ ] User flair
+
+
+
+For this assignment, I was able to meet several key requirements. I successfully implemented the core functionality of the Reddit-style upvote system, allowing users to upvote and downvote posts. Additionally, I ensured that the system updated dynamically without requiring a page refresh, which aligned with the project goals of creating an interactive user experience.
+
+# Unmet Requirements or Goals:
+One goal I wasn’t fully able to achieve was optimizing the API response time. While the upvote system worked, there were moments when the UI took a little longer to reflect changes, especially under slower network conditions.
+
+# Challenges and Difficulties:
+
+The main challenge was balancing real-time updates with performance. I found it difficult to implement an efficient solution that minimized lag while ensuring accurate API synchronization. Managing state between the client-side and server-side was another tricky aspect, particularly when dealing with multiple votes at once. I plan to research more efficient state management techniques to overcome this in future iterations.
